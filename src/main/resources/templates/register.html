@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link th:href="@{/resources/css/register.css}" rel="stylesheet" href="../static/resources/css/register.css">
+  <!--  <style>
+      .content{
+      }
+      .rightbox{
+        background-color: yellow;
+        width: 500px;
+        height:750px;
+        position: absolute;
+        right: 100px;
+        bottom: 100px;
+        border-radius: 28px;
+      }
+      .top1{
+        font-size: 36px;
+        font-weight: 550;
+        padding-left: 50px;
+        padding-top: 15px;
+        background-color: #0b5ed7;
+        width: 300px;
+        height: 100px;
+        border-radius: 28px;
+      }
+      .top2{
+        font-size: 15px;
+        background-color: green;
+        padding-left:50px;
+        width:300px;
+        height:50px;
+        color: #6c757d;
+      }
+      .top3{
+        color: #6c757d;
+        background-color: brown;
+        width: 400px;
+        height:70px;
+        padding-left:50px;
+        padding-top: 70px;
+        font-size: 20px;
+      }
+      .top4{
+        color: #6c757d;
+        background-color: green;
+        width: 400px;
+        height:70px;
+        padding-left:50px;
+        padding-top: 70px;
+        font-size: 20px;
+      }
+      .top5{
+        color: #6c757d;
+        background-color: blue;
+        width: 400px;
+        height:70px;
+        padding-left:50px;
+        padding-top: 70px;
+        font-size: 20px;
+      }
+      .top6{
+        background-color: #5c636a;
+        width:400px;
+        height:100px;
+        position: center;
+      }
+
+    </style>-->
+</head>
+<body class="bg">
+<div class="lefttext1" >
+  <h1>受伤的我</h1>
+</div>
+<div class="lefttext2" >
+  <p>需要你的保护</p>
+</div>
+<div class="register_box" >
+  <div >
+    <h1>欢迎注册</h1>
+  </div>
+  <div >
+    <span>已有账号？</span><a th:href="login">登录</a>
+  </div><br>
+  <div >
+    用户名：<input class="input_window" type="text" name="username" placeholder="请设置用户名">
+  </div><br>
+  <div >
+    手机号：<input class="input_window" type="text" name="telephone" placeholder="请输入手机号">
+  </div><br>
+  <div >
+    密&emsp;码：<input class="input_window" type="text" name="password" placeholder="请设置密码">
+  </div><br>
+  <div >
+    <input class="button" type="submit" value="注册">
+  </div>
+</div>
+</body>
+</html>
